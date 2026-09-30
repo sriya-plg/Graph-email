@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific
+downloads/
+logs/
+*.log
+token_cache.bin
+token_cache.json
+*.pkl
+
+# Blob / local caches
+cache/
+outbox_local/
+audit_local/
+
+# Secrets
+*.pem
+*.key
+credentials.json
+
+# Large fixture outputs (golden files kept, raw captures ignored)
+tests/fixtures/raw/
+
+/docs/PROGRESS.md
+
+/client-files
